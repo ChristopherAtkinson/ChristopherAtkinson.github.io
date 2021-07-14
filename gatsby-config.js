@@ -12,6 +12,13 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `ventures`,
+        path: `${__dirname}/content/ventures`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Gatsby Starter Tailwind CSS",
@@ -28,5 +35,6 @@ module.exports = {
         postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
       },
     },
+    `gatsby-transformer-remark`,
   ],
 }
