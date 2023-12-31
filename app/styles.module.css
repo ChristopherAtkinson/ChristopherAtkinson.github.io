@@ -1,0 +1,19 @@
+.hero_section {
+  @apply row-span-1 col-span-6
+}
+
+.article_section {
+  @apply row-span-1 col-span-6 lg:row-span-3 lg:col-span-3
+}
+
+.experience_section {
+  @apply row-span-1 col-span-6 lg:row-span-2 lg:col-span-3
+}
+
+.curriculum_vitae_section {
+  @apply row-span-1 col-span-6 lg:row-span-1 lg:col-span-3
+}
+
+.portfolio_section {
+  @apply row-span-1 col-span-6
+}

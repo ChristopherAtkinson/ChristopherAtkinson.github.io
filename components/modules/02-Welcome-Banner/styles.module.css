@@ -1,0 +1,12 @@
+.section {
+  @apply row-span-1 col-span-6 w-full px-4 lg:px-16 py-12 lg:py-36 rounded shadow-md space-y-4
+  relative bg-cover bg-center bg-no-repeat bg-[url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanZ6Z2lzeXo1OG14ZHZjbDh5M3oxcm1mdzZxcWVvbHdkd2owdjZhNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NKEt9elQ5cR68/giphy.gif')]
+}
+
+.heading {
+
+}
+
+.paragraph {
+
+}

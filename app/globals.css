@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+  }
+
+  :root {
+    --color-primary: 12 22 24;
+  }
+}
+
+h1 {
+  @apply text-base lg:text-lg
+}
+
+h2 {
+  @apply text-sm lg:text-base
+}
+
+h3 {
+  @apply text-xs lg:text-sm
+}
+
+.page-structure {
+  @apply grid grid-cols-6 gap-4 mx-16
+}

@@ -1,0 +1,15 @@
+.section {
+  @apply w-full h-full p-4 space-y-4 shadow-md 
+}
+
+.card {
+  @apply flex flex-col space-y-4 items-center p-4 shadow-md
+}
+
+.heading {
+
+}
+
+.paragraph {
+
+}

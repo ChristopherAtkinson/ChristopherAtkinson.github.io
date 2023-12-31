@@ -1,0 +1,15 @@
+.section {
+  @apply flex flex-wrap gap-4 p-4 shadow-md
+}
+
+.card {
+  @apply flex flex-col grow space-y-4 h-full items-center p-4 shadow-md
+}
+
+.heading {
+
+}
+
+.paragraph {
+
+}
