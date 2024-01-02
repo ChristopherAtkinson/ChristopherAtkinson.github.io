@@ -1,13 +1,9 @@
 .navigation {
-  @apply flex items-center justify-between gap-2 flex-wrap p-6
+  @apply flex items-center justify-between gap-2 flex-wrap p-6 mx-4 lg:mx-16
 }
 
-.company_icon {
-  @apply fill-primary mr-2
-}
-
-.hamburger_icon {
-  @apply fill-primary mr-2
+.svg {
+  @apply fill-primary stroke-primary h-7 w-7 justify-center items-center 
 }
 
 .button {
@@ -19,9 +15,13 @@
 }
 
 .hamburger_menu {
-  @apply w-full block flex-grow lg:flex lg:items-center lg:w-auto gap-4
+  @apply w-full flex flex-col divide-y divide-solid flex-grow lg:flex lg:items-center lg:w-auto gap-2
 }
 
 .hamburger_menu_hidden {
   @apply w-full block flex-grow lg:flex lg:items-center justify-end lg:w-auto gap-4 hidden
+}
+
+.heading {
+  @apply font-bold text-primary
 }

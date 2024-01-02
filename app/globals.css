@@ -4,11 +4,11 @@
 
 @layer base {
   html {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
   :root {
-    --color-primary: 12 22 24;
+    --color-primary: 59 130 246;
   }
 }
 

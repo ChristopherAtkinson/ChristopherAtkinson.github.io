@@ -17,3 +17,7 @@
 .portfolio_section {
   @apply row-span-1 col-span-6
 }
+
+.paragraph {
+  @apply mt-2 text-sm text-stone-500
+}
