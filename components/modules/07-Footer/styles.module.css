@@ -1,3 +1,7 @@
 .footer {
-  @apply flex justify-center py-4 px-2
+  @apply flex justify-center py-4 px-2 text-center
+}
+
+.paragraph {
+  @apply mt-2 text-sm text-stone-500
 }

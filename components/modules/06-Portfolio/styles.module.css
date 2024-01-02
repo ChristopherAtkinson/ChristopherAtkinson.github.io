@@ -1,15 +1,15 @@
 .section {
-  @apply flex flex-wrap gap-4 p-4 shadow-md
+  @apply grid auto-rows-fr grid-cols-1 lg:grid-cols-4 gap-6 divide-y lg:divide-y-0 lg:divide-x divide-solid 
 }
 
 .card {
-  @apply flex flex-col grow space-y-4 h-full items-center p-4 shadow-md
+  @apply flex flex-col space-y-4 h-full p-4
 }
 
 .heading {
-
+  @apply font-bold text-primary
 }
 
 .paragraph {
-
+  @apply mt-2 text-sm text-stone-500
 }

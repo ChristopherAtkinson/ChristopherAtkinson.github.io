@@ -1,19 +1,31 @@
 .section {
-  @apply w-full h-full flex flex-col justify-center items-center space-y-4 p-4 shadow-md
+  @apply flex items-center p-6 
+}
+
+.container {
+  @apply space-y-6 border-l-2 border-dashed
 }
 
 .card {
-  @apply w-full flex flex-col lg:flex-row space-y-4 lg:space-x-4 items-center p-4 shadow-md
+  @apply relative w-full
 }
 
-.company_icon {
-  @apply fill-primary mr-2
+.svg {
+  @apply absolute -ml-3.5 h-7 w-7 rounded-full stroke-primary
+}
+
+.container_inner {
+  @apply ml-6
 }
 
 .heading {
-
+  @apply font-bold text-primary
 }
 
 .paragraph {
+  @apply mt-2 max-w-screen-sm text-sm text-stone-500
+}
 
+.date {
+  @apply mt-1 block text-sm font-semibold text-primary
 }
